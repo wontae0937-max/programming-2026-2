@@ -1,0 +1,9 @@
+input,n,algo,millis,compares,moves,extraBytes,maxDepth,sorted,stable
+random,4000,quickFirst,0.577,54492,87927,8,25,1,-1
+random,4000,quickSort,0.596,55268,83511,8,30,1,-1
+sorted,4000,quickFirst,13.993,7998000,0,8,4000,1,-1
+sorted,4000,quickSort,0.209,54622,12144,8,27,1,-1
+reversed,4000,quickFirst,16.028,7998000,6000,8,4000,1,-1
+reversed,4000,quickSort,0.386,52418,70746,8,26,1,-1
+few-unique,4000,quickFirst,1.889,1017335,18054,8,529,1,0
+few-unique,4000,quickSort,1.957,1009386,26937,8,528,1,0

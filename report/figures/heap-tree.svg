@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <rect width="720" height="330" fill="#fbfbf9"/>
+  <text x="20.0" y="30.0" font-size="16" fill="#24292f" text-anchor="start" font-weight="600">최대 힙은 트리이자 배열이다</text>
+  <text x="20.0" y="50.0" font-size="11.5" fill="#6e7781" text-anchor="start" font-weight="400">강의 예제 배열 2 8 5 9 1 10 7 6 4 3 → 1단계(힙 만들기)를 마친 모습</text>
+  <line x1="240.0" y1="102.0" x2="130.0" y2="154.0" stroke="#6e7781" stroke-width="1.4" stroke-dasharray="none"/>
+  <line x1="240.0" y1="102.0" x2="350.0" y2="154.0" stroke="#6e7781" stroke-width="1.4" stroke-dasharray="none"/>
+  <line x1="130.0" y1="154.0" x2="75.0" y2="206.0" stroke="#6e7781" stroke-width="1.4" stroke-dasharray="none"/>
+  <line x1="130.0" y1="154.0" x2="185.0" y2="206.0" stroke="#6e7781" stroke-width="1.4" stroke-dasharray="none"/>
+  <line x1="350.0" y1="154.0" x2="295.0" y2="206.0" stroke="#6e7781" stroke-width="1.4" stroke-dasharray="none"/>
+  <line x1="350.0" y1="154.0" x2="405.0" y2="206.0" stroke="#6e7781" stroke-width="1.4" stroke-dasharray="none"/>
+  <line x1="75.0" y1="206.0" x2="47.5" y2="258.0" stroke="#6e7781" stroke-width="1.4" stroke-dasharray="none"/>
+  <line x1="75.0" y1="206.0" x2="102.5" y2="258.0" stroke="#6e7781" stroke-width="1.4" stroke-dasharray="none"/>
+  <line x1="185.0" y1="206.0" x2="157.5" y2="258.0" stroke="#6e7781" stroke-width="1.4" stroke-dasharray="none"/>
+  <circle cx="240.0" cy="102.0" r="17" fill="#0072B2" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="240.0" y="107.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">10</text>
+  <text x="261.0" y="90.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[0]</text>
+  <circle cx="130.0" cy="154.0" r="17" fill="#ffffff" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="130.0" y="159.0" font-size="14" fill="#24292f" text-anchor="middle" font-weight="600">9</text>
+  <text x="151.0" y="142.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[1]</text>
+  <circle cx="350.0" cy="154.0" r="17" fill="#ffffff" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="350.0" y="159.0" font-size="14" fill="#24292f" text-anchor="middle" font-weight="600">7</text>
+  <text x="371.0" y="142.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[2]</text>
+  <circle cx="75.0" cy="206.0" r="17" fill="#ffffff" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="75.0" y="211.0" font-size="14" fill="#24292f" text-anchor="middle" font-weight="600">8</text>
+  <text x="96.0" y="194.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[3]</text>
+  <circle cx="185.0" cy="206.0" r="17" fill="#ffffff" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="185.0" y="211.0" font-size="14" fill="#24292f" text-anchor="middle" font-weight="600">3</text>
+  <text x="206.0" y="194.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[4]</text>
+  <circle cx="295.0" cy="206.0" r="17" fill="#ffffff" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="295.0" y="211.0" font-size="14" fill="#24292f" text-anchor="middle" font-weight="600">5</text>
+  <text x="316.0" y="194.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[5]</text>
+  <circle cx="405.0" cy="206.0" r="17" fill="#ffffff" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="405.0" y="211.0" font-size="14" fill="#24292f" text-anchor="middle" font-weight="600">2</text>
+  <text x="426.0" y="194.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[6]</text>
+  <circle cx="47.5" cy="258.0" r="17" fill="#ffffff" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="47.5" y="263.0" font-size="14" fill="#24292f" text-anchor="middle" font-weight="600">6</text>
+  <text x="68.5" y="246.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[7]</text>
+  <circle cx="102.5" cy="258.0" r="17" fill="#ffffff" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="102.5" y="263.0" font-size="14" fill="#24292f" text-anchor="middle" font-weight="600">4</text>
+  <text x="123.5" y="246.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[8]</text>
+  <circle cx="157.5" cy="258.0" r="17" fill="#ffffff" stroke="#0072B2" stroke-width="1.6"/>
+  <text x="157.5" y="263.0" font-size="14" fill="#24292f" text-anchor="middle" font-weight="600">1</text>
+  <text x="178.5" y="246.0" font-size="10" fill="#6e7781" text-anchor="start" font-weight="400">[9]</text>
+  <text x="214.0" y="107.0" font-size="11" fill="#0072B2" text-anchor="end" font-weight="600">최댓값은 늘 뿌리</text>
+  <text x="470.0" y="104.0" font-size="12" fill="#24292f" text-anchor="start" font-weight="600">배열 a[0..9]</text>
+  <rect x="470" y="120" width="22" height="28" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/>
+  <text x="481.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">10</text>
+  <text x="481.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">0</text>
+  <rect x="494" y="120" width="22" height="28" fill="#ffffff" stroke="#6e7781" stroke-width="1.3"/>
+  <text x="505.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">9</text>
+  <text x="505.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">1</text>
+  <rect x="518" y="120" width="22" height="28" fill="#ffffff" stroke="#6e7781" stroke-width="1.3"/>
+  <text x="529.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">7</text>
+  <text x="529.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">2</text>
+  <rect x="542" y="120" width="22" height="28" fill="#ffffff" stroke="#6e7781" stroke-width="1.3"/>
+  <text x="553.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">8</text>
+  <text x="553.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">3</text>
+  <rect x="566" y="120" width="22" height="28" fill="#ffffff" stroke="#6e7781" stroke-width="1.3"/>
+  <text x="577.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">3</text>
+  <text x="577.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">4</text>
+  <rect x="590" y="120" width="22" height="28" fill="#ffffff" stroke="#6e7781" stroke-width="1.3"/>
+  <text x="601.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">5</text>
+  <text x="601.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">5</text>
+  <rect x="614" y="120" width="22" height="28" fill="#ffffff" stroke="#6e7781" stroke-width="1.3"/>
+  <text x="625.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">2</text>
+  <text x="625.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">6</text>
+  <rect x="638" y="120" width="22" height="28" fill="#ffffff" stroke="#6e7781" stroke-width="1.3"/>
+  <text x="649.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">6</text>
+  <text x="649.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">7</text>
+  <rect x="662" y="120" width="22" height="28" fill="#ffffff" stroke="#6e7781" stroke-width="1.3"/>
+  <text x="673.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">4</text>
+  <text x="673.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">8</text>
+  <rect x="686" y="120" width="22" height="28" fill="#ffffff" stroke="#6e7781" stroke-width="1.3"/>
+  <text x="697.0" y="139.0" font-size="12" fill="#24292f" text-anchor="middle" font-weight="400">1</text>
+  <text x="697.0" y="164.0" font-size="10" fill="#6e7781" text-anchor="middle" font-weight="400">9</text>
+  <text x="470.0" y="204.0" font-size="12" fill="#24292f" text-anchor="start" font-weight="400">부모 i 의 자식 → 2i+1, 2i+2</text>
+  <text x="470.0" y="224.0" font-size="12" fill="#24292f" text-anchor="start" font-weight="400">자식 i 의 부모 → (i−1)/2</text>
+  <text x="470.0" y="244.0" font-size="12" fill="#24292f" text-anchor="start" font-weight="400">예) a[1]=9 의 자식은 a[3]=8, a[4]=3</text>
+  <text x="470.0" y="264.0" font-size="12" fill="#009E73" text-anchor="start" font-weight="600">규칙은 하나: 부모 ≥ 자식</text>
+  <text x="470.0" y="284.0" font-size="12" fill="#24292f" text-anchor="start" font-weight="400">형제끼리의 순서는 정하지 않는다</text>
+</svg>

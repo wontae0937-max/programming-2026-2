@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <rect width="720" height="420" fill="#fbfbf9"/>
+  <text x="20.0" y="30.0" font-size="16" fill="#24292f" text-anchor="start" font-weight="600">첫 원소 피벗 vs 랜덤 피벗 — 비교 횟수 (로그 축)</text>
+  <text x="20.0" y="50.0" font-size="11.5" fill="#6e7781" text-anchor="start" font-weight="400">n = 4,000 · 정렬됨·역순에서 첫 원소 피벗은 n(n-1)/2로 무너진다</text>
+  <line x1="78.0" y1="358.0" x2="696.0" y2="358.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="362.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">10K</text>
+  <line x1="78.0" y1="268.0" x2="696.0" y2="268.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="272.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">100K</text>
+  <line x1="78.0" y1="178.0" x2="696.0" y2="178.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="182.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">1M</text>
+  <line x1="78.0" y1="88.0" x2="696.0" y2="88.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="92.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">10M</text>
+  <line x1="78.0" y1="358.0" x2="696.0" y2="358.0" stroke="#6e7781" stroke-width="1" stroke-dasharray="none"/>
+  <text x="20.0" y="74.0" font-size="11.5" fill="#6e7781" text-anchor="start" font-weight="400">비교 횟수</text>
+  <rect x="117.2" y="291.7" width="35.0" height="66.3" fill="#CC79A7"/>
+  <text x="134.8" y="286.7" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">54K</text>
+  <rect x="155.2" y="291.2" width="35.0" height="66.8" fill="#E69F00"/>
+  <text x="172.8" y="286.2" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">55K</text>
+  <text x="155.2" y="376.0" font-size="11.5" fill="#24292f" text-anchor="middle" font-weight="400">무작위</text>
+  <rect x="271.8" y="96.7" width="35.0" height="261.3" fill="#CC79A7"/>
+  <text x="289.2" y="91.7" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">8M</text>
+  <rect x="309.8" y="291.6" width="35.0" height="66.4" fill="#E69F00"/>
+  <text x="327.2" y="286.6" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">55K</text>
+  <text x="309.8" y="376.0" font-size="11.5" fill="#24292f" text-anchor="middle" font-weight="400">정렬됨</text>
+  <rect x="426.2" y="96.7" width="35.0" height="261.3" fill="#CC79A7"/>
+  <text x="443.8" y="91.7" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">8M</text>
+  <rect x="464.2" y="293.2" width="35.0" height="64.8" fill="#E69F00"/>
+  <text x="481.8" y="288.2" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">52K</text>
+  <text x="464.2" y="376.0" font-size="11.5" fill="#24292f" text-anchor="middle" font-weight="400">역순</text>
+  <rect x="580.8" y="177.3" width="35.0" height="180.7" fill="#CC79A7"/>
+  <text x="598.2" y="172.3" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">1M</text>
+  <rect x="618.8" y="177.6" width="35.0" height="180.4" fill="#E69F00"/>
+  <text x="636.2" y="172.6" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">1M</text>
+  <text x="618.8" y="376.0" font-size="11.5" fill="#24292f" text-anchor="middle" font-weight="400">중복많음</text>
+  <line x1="78.0" y1="390.0" x2="100.0" y2="390.0" stroke="#CC79A7" stroke-width="2.4" stroke-dasharray="4 2 1 2"/>
+  <circle cx="89.0" cy="390.0" r="3" fill="#CC79A7"/>
+  <text x="106.0" y="394.0" font-size="11.5" fill="#24292f" text-anchor="start" font-weight="400">quickFirst</text>
+  <line x1="190.0" y1="390.0" x2="212.0" y2="390.0" stroke="#E69F00" stroke-width="2.4" stroke-dasharray="7 4"/>
+  <circle cx="201.0" cy="390.0" r="3" fill="#E69F00"/>
+  <text x="218.0" y="394.0" font-size="11.5" fill="#24292f" text-anchor="start" font-weight="400">quickSort</text>
+</svg>

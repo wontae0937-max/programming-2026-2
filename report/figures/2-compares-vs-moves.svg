@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <rect width="720" height="420" fill="#fbfbf9"/>
+  <text x="20.0" y="30.0" font-size="16" fill="#24292f" text-anchor="start" font-weight="600">비교와 이동 — 서로 다른 것을 아낀다 (n = 1,024,000)</text>
+  <text x="20.0" y="50.0" font-size="11.5" fill="#6e7781" text-anchor="start" font-weight="400">병합은 비교를, 힙은 이동을 가장 적게 쓴다. 퀵은 양쪽 다 중간이다</text>
+  <line x1="78.0" y1="358.0" x2="696.0" y2="358.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="362.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">0</text>
+  <line x1="78.0" y1="304.0" x2="696.0" y2="304.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="308.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">10M</text>
+  <line x1="78.0" y1="250.0" x2="696.0" y2="250.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="254.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">20M</text>
+  <line x1="78.0" y1="196.0" x2="696.0" y2="196.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="200.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">30M</text>
+  <line x1="78.0" y1="142.0" x2="696.0" y2="142.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="146.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">40M</text>
+  <line x1="78.0" y1="88.0" x2="696.0" y2="88.0" stroke="#dfe1e4" stroke-width="1" stroke-dasharray="none"/>
+  <text x="68.0" y="92.0" font-size="10.5" fill="#6e7781" text-anchor="end" font-weight="400">50M</text>
+  <line x1="78.0" y1="358.0" x2="696.0" y2="358.0" stroke="#6e7781" stroke-width="1" stroke-dasharray="none"/>
+  <text x="20.0" y="74.0" font-size="11.5" fill="#6e7781" text-anchor="start" font-weight="400">횟수</text>
+  <rect x="175.5" y="254.6" width="35.0" height="103.4" fill="#0072B2"/>
+  <text x="193.0" y="249.6" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">19M</text>
+  <rect x="213.5" y="223.0" width="35.0" height="135.0" fill="#E69F00"/>
+  <text x="231.0" y="218.0" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">25M</text>
+  <rect x="251.5" y="154.2" width="35.0" height="203.8" fill="#009E73"/>
+  <text x="269.0" y="149.2" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">38M</text>
+  <text x="232.5" y="376.0" font-size="11.5" fill="#24292f" text-anchor="middle" font-weight="400">비교</text>
+  <rect x="484.5" y="137.1" width="35.0" height="220.9" fill="#0072B2"/>
+  <text x="502.0" y="132.1" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">41M</text>
+  <rect x="522.5" y="151.3" width="35.0" height="206.7" fill="#E69F00"/>
+  <text x="540.0" y="146.3" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">38M</text>
+  <rect x="560.5" y="224.9" width="35.0" height="133.1" fill="#009E73"/>
+  <text x="578.0" y="219.9" font-size="9.5" fill="#6e7781" text-anchor="middle" font-weight="400">25M</text>
+  <text x="541.5" y="376.0" font-size="11.5" fill="#24292f" text-anchor="middle" font-weight="400">이동</text>
+  <line x1="78.0" y1="390.0" x2="100.0" y2="390.0" stroke="#0072B2" stroke-width="2.4" stroke-dasharray="none"/>
+  <circle cx="89.0" cy="390.0" r="3" fill="#0072B2"/>
+  <text x="106.0" y="394.0" font-size="11.5" fill="#24292f" text-anchor="start" font-weight="400">mergeSort</text>
+  <line x1="183.4" y1="390.0" x2="205.4" y2="390.0" stroke="#E69F00" stroke-width="2.4" stroke-dasharray="7 4"/>
+  <circle cx="194.4" cy="390.0" r="3" fill="#E69F00"/>
+  <text x="211.4" y="394.0" font-size="11.5" fill="#24292f" text-anchor="start" font-weight="400">quickSort</text>
+  <line x1="288.8" y1="390.0" x2="310.8" y2="390.0" stroke="#009E73" stroke-width="2.4" stroke-dasharray="2 3"/>
+  <circle cx="299.8" cy="390.0" r="3" fill="#009E73"/>
+  <text x="316.8" y="394.0" font-size="11.5" fill="#24292f" text-anchor="start" font-weight="400">heapSort</text>
+</svg>
